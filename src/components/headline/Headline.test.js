@@ -7,7 +7,7 @@ const setUp = (props = {}) => {
 	return shallow(<Headline {...props} />);
 }
 describe('Headline Component', () => {
-	describe('Have prps', () => {
+	describe('Have props', () => {
 		let wrapper;
 		beforeEach(() => {
 			const props = {
